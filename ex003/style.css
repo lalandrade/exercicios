@@ -1,0 +1,27 @@
+.Gato img {
+    
+        width: 300px;        /* largura */
+        height: 300px;      /* altura */
+        margin-top: 200px;   /* espaço acima */
+        margin-left: 1000px;  /* espaço à esquerda */
+        margin-bottom: 200px; /* espaço abaixo */
+        /* margin-right: 40px;  espaço à direita */
+}
+.Gato2 img {
+    width: 500px;
+    height: 500px;   /* altura */
+    margin-top: 100px;   /* espaço acima */
+    margin-left: 600px;  /* espaço à esquerda */
+    margin-bottom: 200px; /* espaço abaixo */
+    border-radius: 100%; /* borda arredondada */
+  
+}
+.Triângulo img {
+    width: 0;      /* largura */
+    height: 0;   /* altura */
+    border-left: 500px solid transparent;  /* borda esquerda */
+    border-right: 500px solid transparent; /* borda direita */
+    border-bottom: 1000px solid red; /* borda inferior */
+    margin-top: 200px;   /* espaço acima */
+    
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simples aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="/imagem/foto-p.png">
+        <source media="(max-width: 1200px)" srcset="/imagem/foto-m.png">
+        <img src="/imagem/foto-g.png" alt="Imagem flexível">
+        <p>Essa imagem é responsiva, ou seja, ela se adapta ao tamanho da tela do dispositivo que você está usando.</p>
+    
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduiz áudios em HTML5</p>
+    <audio src="midia/Why Why Why - Ryan Stasik, Kanika Moore.mp3" controls autoplay></audio>
+
+
+</body>
+</html>

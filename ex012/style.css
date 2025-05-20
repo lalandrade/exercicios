@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: red;
+}
+.Nome{
+    background-color: blue;
+}
+.Hexadecimal{
+    background-color: #0000ff;
+}
+.RGB{
+    background-color: rgb(0, 0, 255);
+}
+.HSL{
+    background-color: hsl(240, 100%, 50%);
+}
+.HSLA{
+    background-color: hsla(240, 100%, 50%, 0.5);
+}

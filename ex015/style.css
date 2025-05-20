@@ -1,0 +1,20 @@
+body {
+  font-size: 16px; /* base para usar em e rem */
+}
+
+.caixa {
+  width: 50%;         /* metade da largura da tela */
+  padding: 20px;      /* 20px fixo de espaço interno */
+  background-color: lightblue;
+}
+
+.texto {
+  font-size: 1.5em;   /* 1.5x o tamanho do font-size do pai (16px x 1.5 = 24px) */
+  margin-top: 10px;   /* espaço fixo entre elementos */
+}
+
+.fixa {
+  width: 300px;       /* largura fixa */
+  background-color: lightcoral;
+  padding: 1em;       /* 1em = 24px aqui (baseada na fonte do pai) */
+}

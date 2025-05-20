@@ -1,0 +1,10 @@
+*{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+/* background e background-attachment e background-size e background-position e background-repeat e background-origin e background-clip e background-color e radial-gradient e linear-gradient e conic-gradient e repeating-linear-gradient e repeating-radial-gradient */
+body{
+    background: repeating-conic-gradient(#7B38AC, #FAD700 , #F76A00,#E21639, #AA45AF, #7B38AC);
+    background-attachment: fixed;
+}
